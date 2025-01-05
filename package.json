@@ -1,8 +1,8 @@
 {
     "name": "stklng-syntax",
     "displayName": "stklng Syntax",
-    "description": "Syntax highlighting for the STKLNG language",
-    "version": "0.0.2",
+    "description": "Syntax highlighting for the stklng language\nhttps://github.com/lenanya/stklng",
+    "version": "0.0.3",
     "publisher": "lenanya",
     "engines": {
         "vscode": "^1.50.0"
@@ -19,7 +19,6 @@
             {
                 "id": "stklng",
                 "aliases": [
-                    "STKLNG",
                     "stklng"
                 ],
                 "extensions": [
