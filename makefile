@@ -1,0 +1,2 @@
+stklng-syntax: 
+	vsce package

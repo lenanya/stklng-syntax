@@ -9,6 +9,10 @@
         "match": "\\b(push|pop|addi|addf|scat|isub|fsub|icmp|fcmp|scmp|prstk|print|callcon|call|ldx|ldxnp|ldy|ldynp|stx|sty|txy|tyx|swp|dup|rdf|wtf|atf|chkerr|ssplt|preg|eq|ne|lt|le|gt|ge)\\b"
       },
       {
+        "name": "string.quoted.double.stklng",
+        "match": "\"([^\"\\\\]|\\\\.)*\""
+      },
+      {
         "name": "constant.numeric.stklng",
         "match": "\\b\\d+\\b"
       },
