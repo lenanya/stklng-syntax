@@ -1,0 +1,30 @@
+{
+    "name": "stklng-syntax",
+    "displayName": "stklng Syntax",
+    "description": "Syntax highlighting for the STKLNG language",
+    "version": "0.0.1",
+    "publisher": "lenanya",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "categories": [
+      "Programming Languages"
+    ],
+    "contributes": {
+      "languages": [
+        {
+          "id": "stklng",
+          "aliases": ["STKLNG", "stklng"],
+          "extensions": [".sl"],
+          "configuration": "./language-configuration.json"
+        }
+      ],
+      "grammars": [
+        {
+          "language": "stklng",
+          "scopeName": "source.stklng",
+          "path": "./syntaxes/stklng.tmLanguage.json"
+        }
+      ]
+    }
+  }

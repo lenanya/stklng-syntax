@@ -1,0 +1,22 @@
+{
+    "patterns": [
+      {
+        "name": "comment.line.double-slash.stklng",
+        "match": "//.*$"
+      },
+      {
+        "name": "keyword.control.stklng",
+        "match": "\\b(push|pop|addi|addf|scat|isub|fsub|icmp|fcmp|scmp|prstk|print|callcon|call|ldx|ldxnp|ldy|ldynp|stx|sty|txy|tyx|swp|dup|rdf|wtf|atf|chkerr|ssplt|preg|eq|ne|lt|le|gt|ge)\\b"
+      },
+      {
+        "name": "constant.numeric.stklng",
+        "match": "\\b\\d+\\b"
+      },
+      {
+        "name": "entity.name.label.stklng",
+        "match": "\\b\\w+\\s*:\\b"
+      }
+    ],
+    "repository": {},
+    "scopeName": "source.stklng"
+  }
