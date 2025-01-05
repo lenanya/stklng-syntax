@@ -1,7 +1,7 @@
 {
     "name": "stklng-syntax",
     "displayName": "stklng Syntax",
-    "description": "Syntax highlighting for the stklng language\nhttps://github.com/lenanya/stklng",
+    "description": "Syntax highlighting for the stklng language",
     "version": "0.0.3",
     "publisher": "lenanya",
     "engines": {

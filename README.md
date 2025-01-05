@@ -1,3 +1,5 @@
-# STKLNG Syntax
+# stklng Syntax
 
-vscode syntax highlighting for stklng
+vscode syntax highlighting for the stklng programming language
+
+https://github.com/lenanya/stklng
