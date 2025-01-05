@@ -2,33 +2,38 @@
     "name": "stklng-syntax",
     "displayName": "stklng Syntax",
     "description": "Syntax highlighting for the STKLNG language",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "lenanya",
     "engines": {
-      "vscode": "^1.50.0"
+        "vscode": "^1.50.0"
     },
     "categories": [
-      "Programming Languages"
+        "Programming Languages"
     ],
     "repository": {
-    "type": "git",
-    "url": "https://github.com/lenanya/stklng-syntax"
+        "type": "git",
+        "url": "https://github.com/lenanya/stklng-syntax"
     },
     "contributes": {
-      "languages": [
-        {
-          "id": "stklng",
-          "aliases": ["STKLNG", "stklng"],
-          "extensions": [".sl"],
-          "configuration": "./language-configuration.json"
-        }
-      ],
-      "grammars": [
-        {
-          "language": "stklng",
-          "scopeName": "source.stklng",
-          "path": "./syntaxes/stklng.tmLanguage.json"
-        }
-      ]
+        "languages": [
+            {
+                "id": "stklng",
+                "aliases": [
+                    "STKLNG",
+                    "stklng"
+                ],
+                "extensions": [
+                    ".sl"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "stklng",
+                "scopeName": "source.stklng",
+                "path": "./syntaxes/stklng.tmLanguage.json"
+            }
+        ]
     }
-  }
+}
